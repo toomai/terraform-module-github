@@ -3,5 +3,5 @@ output "fqdn" {
 }
 
 output "ssh_clone" {
-    value = github_repository.my_awesome_repo.ssl_clone_url
+    value = github_repository.my_awesome_repo.ssh_clone_url
 }
